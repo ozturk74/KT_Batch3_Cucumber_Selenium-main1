@@ -13,7 +13,7 @@ Feature: Dashboard checks
     |Forms     |
     |JavaScript|
     |John      |
-
+   @parallel
   @cucumberMap
   Scenario: Example-2 for Cucumber Map
     Then Enter credentials and validate that user is on the home page

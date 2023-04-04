@@ -1,4 +1,5 @@
 Feature: Profile Tests
+  @parallel
   @scenario
   Scenario: User should be able to edit his/her profile
     Given The user is on the login page

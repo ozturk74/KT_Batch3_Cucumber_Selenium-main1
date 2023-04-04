@@ -11,7 +11,7 @@ Feature: Login
 
   Background:
     Given The user is on the login page
-
+  @parallel
   @teacher @krafttech @smoke
   Scenario: Login as Mike
     When The user enters valid credentials that belongs to Mike

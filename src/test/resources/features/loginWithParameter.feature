@@ -19,7 +19,7 @@ Feature: Log in as different user
     When The user logs in using "eddiem@kraft.com" and "eddiem12"
     Then The user should be able to login
     And The user name should be "Eddie Murphy"
-
+  @parallel
   Scenario: Log in as Morgan with parameter
     When The user logs in using "morganfreeman@kraft.com" and "mfreeman"
     Then The user should be able to login
